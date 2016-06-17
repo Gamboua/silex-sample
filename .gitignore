@@ -2,3 +2,7 @@ vendor
 tests/_reports
 
 composer.lock
+.buildpath
+.project
+.settings/
+.gitignore

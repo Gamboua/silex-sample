@@ -1,7 +1,7 @@
 <?php
 
-$app->get('/', function ()  use ($app, $em) {
-    // $user = $em->getRepository('Api\Entity\User');
+$app->get('/', function ()  use ($app) {
+    // $user = $app['orm.em']->getRepository('Api\Entity\Users'); EXAMPLE
 
-    return 'teste';
+    return $app->json(['message' => 'index'], 200);
 });
