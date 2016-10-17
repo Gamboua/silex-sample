@@ -31,12 +31,12 @@ $config->setMetadataCacheImpl($cache);
 
 $em = EntityManager::create(
     array(
-    	'driver'  => 'pdo_pgsql',
-    	'host'    => 'localhost',
-    	'port'    => '5432',
-    	'user'    => 'postgres',
-	    'password'  => '123456',
-    	'dbname'  => 'cep',
+    	'driver'  => '',
+    	'host'    => '',
+    	'port'    => '',
+    	'user'    => '',
+	'password'  => '',
+    	'dbname'  => '',
     ),
     $config
 );
